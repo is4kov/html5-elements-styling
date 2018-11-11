@@ -1188,7 +1188,8 @@ template {
     background: #fff;
     font-size: .5em;
     color: #3d76cc;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: all linear .2s; }
     .navigation__link:not(:first-child) {
       margin-top: 1em; }
     .is-prev .navigation__link::before {
@@ -1197,6 +1198,8 @@ template {
     .is-next .navigation__link::after {
       content: '>';
       margin-left: .25em; }
+    .navigation__link:hover {
+      opacity: 1; }
   .navigation__vendor {
     display: inline-block;
     font-size: .5em;
