@@ -404,7 +404,7 @@ template {
     display: flex; }
   .slide.is-detailed {
     width: 100%;
-    height: auto;
+    height: 100vh;
     margin: 0 auto;
     padding: 3em;
     padding-right: calc(3em + 300px + 10px);
@@ -1895,3 +1895,7 @@ section#page-final:target {
 #page-final h2 {
   text-transform: uppercase;
   margin-bottom: 3em; }
+
+body > section[id*="page-"]:not(:target):not(:first-child) {
+  display: none;
+}
