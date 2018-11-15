@@ -407,7 +407,7 @@ template {
     height: 100vh;
     margin: 0 auto;
     padding: 3em;
-    padding-right: calc(3em + 300px + 10px);
+    padding-right: calc(3em + 320px + 10px);
     opacity: 1;
     transition: opacity linear .2s; }
     .slide.is-detailed:not(:target) {
@@ -1024,7 +1024,7 @@ template {
   right: 25px;
   top: 6px;
   bottom: 6px;
-  width: 300px;
+  width: 320px;
   padding: 1em 2em;
   flex-direction: column;
   justify-content: space-between;
@@ -1227,7 +1227,7 @@ html {
   overflow: hidden; }
 
 body {
-  padding-right: 300px;
+  padding-right: 320px;
   background: #f3f3f3;
   font-family: Georgia, sans-serif;
   font-size: 2em;
